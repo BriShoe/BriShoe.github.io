@@ -21,7 +21,7 @@ repository               : "BriShoe.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "images/profile.jpeg"
   name             : "Brian Xu"
   pronouns         : # example: "she/her"  
   bio              : "B.S. Mathematics and M.S. Statistics @ Stanford. Interested in Econcomic Research"
@@ -35,7 +35,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=XrAVfg0AAAAJ"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-7316-0043"
-  pubmed           : 
+  pubmed           : #
   researchgate     : # URL
 
   # Repositories and software development
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -89,7 +89,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : 'dark' # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
